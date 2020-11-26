@@ -25,7 +25,10 @@
  
  ##### 已上线小程序集合
  
- 
+<image src='./mini-qrcode/1.jpeg' style="width:300px;height:auto" > 
+ <image src='./mini-qrcode/2.jpeg' style="width:300px;height:auto" >
+<image src='./mini-qrcode/3.jpeg' style="width:300px;height:auto" >
+
  ##### 开源协议
  仅可以自己使用，二次开发请保留源码安装说明文档以及个人中心处的联系作者，更多感兴趣合作请微信联系phpcoder666，谢谢
  
