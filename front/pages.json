@@ -1,0 +1,42 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	},
+	{
+		"path": "pages/user/user"
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "红包优惠券天天领",
+		"navigationBarBackgroundColor": "#f4c242",
+		"backgroundColor": "#FFFFFF",
+		"titleView": false,
+		"h5": {
+			"titleNView": false
+		}
+	}
+	// #ifdef  MP-WEIXIN
+	,
+	"tabBar": {
+	        "borderStyle": "black",
+	        "backgroundColor": "white",
+	        "color": "#333333",    
+			"fontSize" : "24upx", 
+	        "selectedColor": "#f4c242",
+	        "list": [{
+	                "pagePath": "pages/index/index",
+	                "text": "首页", 
+					"iconPath": "static/home.png",
+					"selectedIconPath": "static/home-active.png"
+					},
+				   {
+					   "pagePath": "pages/user/user",
+					   "text": "个人中心",
+					   "iconPath": "static/person.png",   
+					   "selectedIconPath": "static/person-active.png"
+				   }
+			   ]
+				   
+	}
+	// #endif
+}
