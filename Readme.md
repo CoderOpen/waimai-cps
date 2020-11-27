@@ -28,7 +28,7 @@
 <image src='./mini-qrcode/1.jpeg' style="margin:0 20px; width:300px;height:auto" ><image src='./mini-qrcode/2.jpeg' style="margin:0 20px;width:300px;height:auto" ><image src='./mini-qrcode/3.jpeg' style="margin:0 20px;width:300px;height:auto" >
 
 ##### 打赏和群聊
-<image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" > <image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" >
+<image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" > <image src='./group.jpeg' style="margin:0 20px;width:300px;height:auto" >
 
 ##### 感谢
 
