@@ -25,7 +25,14 @@
  
  ##### 已上线小程序集合
  
-<image src='./mini-qrcode/1.jpeg' style="width:300px;height:auto" ><image src='./mini-qrcode/2.jpeg' style="width:300px;height:auto" ><image src='./mini-qrcode/3.jpeg' style="width:300px;height:auto" >
+<image src='./mini-qrcode/1.jpeg' style="margin:0 20px; width:300px;height:auto" ><image src='./mini-qrcode/2.jpeg' style="margin:0 20px;width:300px;height:auto" ><image src='./mini-qrcode/3.jpeg' style="margin:0 20px;width:300px;height:auto" >
+
+##### 打赏和群聊
+<image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" > <image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" >
+
+##### 感谢
+
+本项目参考https://github.com/zwpro/coupons 并改进加入后端代码
 
  ##### 开源协议
  仅可以自己使用，二次开发请保留源码安装说明文档以及个人中心处的联系作者，更多感兴趣合作请微信联系phpcoder666，谢谢
