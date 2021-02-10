@@ -28,10 +28,12 @@ export default {
 			
 			],
 			projectList: [
-			]
+			],
+                        uid
 		};
 	},
 	onLoad(e) {
+                let uid  = e.uid
 		//#ifdef H5
 		let tabId = this.$route.query.tabId ? parseInt(this.$route.query.tabId) : 0
 		//#endif
@@ -43,7 +45,7 @@ export default {
 				this.current = parseInt(i)
 			}
 		}
-		this.changeTab(this.current)
+		this.changeTab(this.current,uid)
 	},
 	onShareAppMessage(res) {
 		return {
@@ -52,14 +54,17 @@ export default {
 		}
 	},
 	methods: {
-		changeTab(index) {
+		changeTab(index,uid) {
 			console.log('当前选中的项：' + index);
+                        if (!uid) {
+                           uid = 'index'
+                        }
 			this.couponList = []
 			uni.showLoading({
 			    title: '获取优惠中'
 			});
 			uni.request({
-			    url: this.requestUrl + "?cate_id=" + index, //仅为示例，并非真实接口地址。
+			    url: this.requestUrl + '/' + uid + ".php?cate_id=" + index, //仅为示例，并非真实接口地址。
 			    data: {
 			    },
 			    header: {
