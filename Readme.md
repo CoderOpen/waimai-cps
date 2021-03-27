@@ -27,9 +27,12 @@
  ##### 如何获取相关推广链接
   如何操作可先参考微信公众号《一只码》万能获取文章 
   https://mp.weixin.qq.com/s/JHDWqBvntD0-p-dXEntSQQ
-  <image src='./onecoder.jpeg' style="margin:0 20px;width:300px;height:auto" >
+  
+  <image src='./onecoder.jpeg' style="margin:0 20px;width:300px;height:auto">
+  
   亦可加入我的付费社区，与100+技术运营小伙伴共同成长分享
-  <image src='./star.png' style="margin:0 20px;width:300px;height:auto" >
+  
+  <image src='./star.jpg' style="margin:0 20px;width:300px;height:auto" >
   美团外卖红包推广地址，亦可以联系作者合作获取API实现分销等
  ##### 联系作者
  phpcoder666, 如需低价服务器(腾讯阿里70多块钱一年)，或者托管请联系我。可淘宝或者一些网站买三五十一年的主机+二级域名即可
