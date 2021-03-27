@@ -1,0 +1,76 @@
+{
+  "_from": "lucky-canvas@^1.3.3",
+  "_id": "lucky-canvas@1.3.4",
+  "_inBundle": false,
+  "_integrity": "sha512-ZQJuPY5wqGkrA3aA2Dg8DctTQreEwMSYs8Kal0fCHCnHRZJj/+010Ba21kcOCGJIAlMpHaEcTSJQUhO9Lkd2Rg==",
+  "_location": "/lucky-canvas",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "lucky-canvas@^1.3.3",
+    "name": "lucky-canvas",
+    "escapedName": "lucky-canvas",
+    "rawSpec": "^1.3.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.3.3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/lucky-canvas/-/lucky-canvas-1.3.4.tgz",
+  "_shasum": "cf653819c153d666584067823c5729ce844667f3",
+  "_spec": "lucky-canvas@^1.3.3",
+  "_where": "D:\\ldq\\luck-draw\\uni-luck-draw",
+  "author": {
+    "name": "ldq",
+    "email": "ldq404@qq.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "一个基于原生 js 的（大转盘抽奖 / 九宫格抽奖）插件",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^2.33.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.5"
+  },
+  "files": [
+    "package.json",
+    "LICENSE",
+    "dist",
+    "index.js",
+    "umd.min.js"
+  ],
+  "homepage": "https://100px.net",
+  "keywords": [
+    "vue3抽奖",
+    "大转盘抽奖",
+    "九宫格抽奖",
+    "抽奖插件",
+    "js抽奖",
+    "移动端抽奖",
+    "canvas抽奖"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "name": "lucky-canvas",
+  "scripts": {
+    "build": "rollup --config rollup.config.build.js",
+    "dev": "rollup --config rollup.config.dev.js -w"
+  },
+  "version": "1.3.4"
+}

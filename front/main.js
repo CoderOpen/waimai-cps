@@ -3,6 +3,7 @@ import App from './App'
 
 Vue.config.productionTip = false
 let  baseRequestUrl = 'https://waimai.lajun.site/waimai.php'  //后端网站域名
+//baseRequestUrl = 'http://localhost:8000/waimai.php'
 Vue.prototype.baseRequestUrl = baseRequestUrl
 Vue.prototype.requestUrl = baseRequestUrl
 Vue.prototype.raiseImage = 'https://leijun-common.oss-cn-shenzhen.aliyuncs.com/raise.jpeg' //赞赏作者栏目赞赏码

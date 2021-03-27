@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "lucky-wheel": "/components/uni-luck-draw/lucky-wheel"
+  }
+}

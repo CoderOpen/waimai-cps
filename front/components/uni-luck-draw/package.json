@@ -1,0 +1,25 @@
+{
+  "name": "uni-luck-draw",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "index.js",
+    "utils.js",
+    "demo.vue",
+    "lucky-wheel.vue",
+    "lucky-grid.vue"
+  ],
+  "author": "ldq <ldq404@qq.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "lucky-canvas": "^1.2.8"
+  }
+}

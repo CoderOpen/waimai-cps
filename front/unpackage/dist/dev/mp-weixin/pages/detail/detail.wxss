@@ -1,0 +1,84 @@
+
+.notify image{
+	  width: 100%;
+}
+.project-container {
+	  width: 92%;
+	  margin: 50rpx auto;
+}
+.content{
+	  margin: 20rpx 0;
+	  font-size: 28rpx;
+	  line-height: 2rem;
+}
+.go-btn{
+	  width: 100%;
+	  background-color:#e54d42;
+	  color: white;
+	  text-align: center;
+	  padding: 20rpx 0;
+	  border-radius: 5rpx;
+	  font-size: 36rpx;  
+	  margin-bottom: 160rpx;
+	  margin-top: 30rpx;
+}
+.project_item{
+	  -webkit-box-pack: justify;
+	  -webkit-justify-content: space-between;
+	          justify-content: space-between;
+	  background-color: #fff;
+	  border-radius: 5rpx;
+	  box-shadow: 2rpx 2rpx 6rpx #b9b9b9;
+}
+.project-header{
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-pack: justify;
+	  -webkit-justify-content: space-between;
+	          justify-content: space-between;
+	  -webkit-box-orient: horizontal;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: row;
+	          flex-direction: row;
+	  margin-bottom: 20rpx;
+}
+.title {
+	  border-left: #F0AD4E solid 8rpx;
+	  padding-left: 15rpx;
+	  line-height: 1.5rem;
+	  font-size: 30rpx;
+	  font-weight: 500;
+	  width: 80%;
+	  text-align: left;
+}
+.share{
+	  width: 42rpx;
+	  text-align: right;
+	  background-color: white;
+	  padding: 0;
+	  line-height: 1;
+	  border: 0;
+	  text-align: right;
+}
+.share::after{
+  	border: 0;
+  	width: 0;
+	height: 0;
+}
+.share image{
+	  width: 100%;
+}
+.image{
+	  width: 100%;
+}
+.image image{
+	  border-radius: 10rpx; 
+	  max-height: 100%;
+	  width: 100%;
+}
+.description{
+	  font-size: 28rpx;
+	  font-weight: 350;
+}
+

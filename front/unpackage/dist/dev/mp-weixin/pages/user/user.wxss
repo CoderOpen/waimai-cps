@@ -1,0 +1,31 @@
+
+.head{
+	background-color: #FFFFFF;
+	padding: 40rpx;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center
+}
+.head-picture{
+	width: 100rpx;
+	height: 100rpx;
+	background: #fff;
+	border: 5rpx solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.nickname{
+	margin-left: 30rpx;
+	font-size: 36rpx;
+	font-weight: 500;
+	text-align: left;
+}
+

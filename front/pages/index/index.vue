@@ -29,7 +29,6 @@ export default {
 			],
 			projectList: [
 			],
-                        uid
 		};
 	},
 	onLoad(e) {
@@ -112,13 +111,26 @@ export default {
 			}, 500)
 		},
 		toProject(i){
-			console.log(this.projectList[i])
+			let project = this.projectList[i]
 			//h5
 			//#ifdef H5
 			window.location.href = this.projectList[i].url
 			//#endif
 			//微信小程序
 			//#ifdef MP-WEIXIN 
+		
+		   
+			if (project.description) {
+				console.log(project) 
+				return
+				uni.navigateTo({
+					url: '/pages/detail/detail?project_id=' + project.id,
+					fail(res) {
+						console.log(res)
+					}
+				});
+				return;
+			}
 			
 			wx.navigateToMiniProgram({
 			  appId: this.projectList[i].appid, 
@@ -178,7 +190,7 @@ page {
 						text-align: left;
 						display: inline-block;
 						vertical-align: bottom;
-						font-size: 34rpx;
+						font-size: 28rpx;
 						color: #000;
 						line-height: 50rpx;
 						font-weight: bold;
