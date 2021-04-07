@@ -34,15 +34,17 @@
   
   <image src='./star.jpg' style="margin:0 20px;width:300px;height:auto" >
   美团外卖红包推广地址，亦可以联系作者合作获取API实现分销等
- ##### 联系作者
+
+##### 联系作者
+ 
  phpcoder666, 如需低价服务器(腾讯阿里70多块钱一年)，或者托管请联系我。可淘宝或者一些网站买三五十一年的主机+二级域名即可
  
- ##### 已上线小程序集合
+##### 已上线小程序集合
  
 <image src='./mini-qrcode/1.jpeg' style="margin:0 20px; width:300px;height:auto" ><image src='./mini-qrcode/2.jpeg' style="margin:0 20px;width:300px;height:auto" ><image src='./mini-qrcode/3.jpeg' style="margin:0 20px;width:300px;height:auto" >
 
-##### 打赏和联系作者
-<image src='./reward.jpeg' style="margin:0 20px;width:300px;height:auto" > <image src='./wechat.png' style="margin:0 20px;width:300px;height:auto" >
+##### 联系作者
+<image src='./wechat.png' style="margin:0 20px;width:300px;height:auto" >
 
 ##### 感谢
 
